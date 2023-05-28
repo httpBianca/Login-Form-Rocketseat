@@ -157,3 +157,13 @@ button{
     height: 100vh;
     width: 100%;
 }
+
+@media screen and (max-width: 970px )  {
+    .container-right{
+        display: none;
+    }
+    .container-left{
+        height: 100vh;
+        width: 100vw;
+    }
+}
