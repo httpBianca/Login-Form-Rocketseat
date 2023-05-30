@@ -48,7 +48,7 @@ form{
     height: 590px;
     width: 550px;
     border-radius: 20px;
-    padding: 50px;
+    padding: 40px;
 }
 
 input[type="email"]{
@@ -103,6 +103,10 @@ a{
     color: var(--primary-color);
 }
 
+a:hover{
+    color: #ffc532ae;
+}
+
 button{
     padding: 20px;
     width: 100%;
@@ -138,8 +142,14 @@ button{
     border: none;
 }
 
+.custom-checkbox a{
+    margin-left: 125px;
+}
+
 .custom-checkbox{
     margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .container-right{
@@ -162,4 +172,5 @@ button{
         height: 100vh;
         width: 100vw;
     }
+    
 }
